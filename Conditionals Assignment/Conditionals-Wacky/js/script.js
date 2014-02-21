@@ -55,4 +55,21 @@ var userGuess1 = prompt("Please enter your guess:");  //  Prompt user for their 
 (parseInt(userGuess16) < parseInt(randomNumber)) ? prompt("Guess a higher number:") : 
 (parseInt(userGuess17) < parseInt(randomNumber)) ? prompt("Guess a higher number:") : 
 (parseInt(userGuess18) < parseInt(randomNumber)) ? prompt("Guess a higher number:") : 
-(parseInt(userGuess1) === parseInt(randomNumber) || parseInt(userGuess2) === parseInt(randomNumber) || parseInt(userGuess3) === parseInt(randomNumber) || parseInt(userGuess4) === parseInt(randomNumber) || parseInt(userGuess5) === parseInt(randomNumber) || parseInt(userGuess6) === parseInt(randomNumber) || parseInt(userGuess7) === parseInt(randomNumber) || parseInt(userGuess8) === parseInt(randomNumber) || parseInt(userGuess9) === parseInt(randomNumber) || parseInt(userGuess10) === parseInt(randomNumber) ||parseInt(userGuess11) === parseInt(randomNumber) || parseInt(userGuess12) === parseInt(randomNumber) || parseInt(userGuess13) === parseInt(randomNumber) || parseInt(userGuess14) === parseInt(randomNumber) || parseInt(userGuess15) === parseInt(randomNumber) || parseInt(userGuess16) === parseInt(randomNumber) || parseInt(userGuess17) === parseInt(randomNumber) || parseInt(userGuess18) === parseInt(randomNumber)) ? console.log("Correct") : console.log("You chose wisely, " +name+ "! The random number was: " +randomNumber+ ".");  //  Print message to console
+(parseInt(userGuess1) === parseInt(randomNumber) || 
+	parseInt(userGuess2) === parseInt(randomNumber) || 
+	parseInt(userGuess3) === parseInt(randomNumber) || 
+	parseInt(userGuess4) === parseInt(randomNumber) || 
+	parseInt(userGuess5) === parseInt(randomNumber) || 
+	parseInt(userGuess6) === parseInt(randomNumber) || 
+	parseInt(userGuess7) === parseInt(randomNumber) || 
+	parseInt(userGuess8) === parseInt(randomNumber) || 
+	parseInt(userGuess9) === parseInt(randomNumber) || 
+	parseInt(userGuess10) === parseInt(randomNumber) ||
+	parseInt(userGuess11) === parseInt(randomNumber) || 
+	parseInt(userGuess12) === parseInt(randomNumber) || 
+	parseInt(userGuess13) === parseInt(randomNumber) || 
+	parseInt(userGuess14) === parseInt(randomNumber) || 
+	parseInt(userGuess15) === parseInt(randomNumber) || 
+	parseInt(userGuess16) === parseInt(randomNumber) || 
+	parseInt(userGuess17) === parseInt(randomNumber) || 
+	parseInt(userGuess18) === parseInt(randomNumber)) ? console.log("Correct") : console.log("You chose wisely, " +name+ "! The random number was: " +randomNumber+ ".");  //  Print message to console
