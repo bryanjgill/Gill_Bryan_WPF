@@ -55,7 +55,7 @@ if(parseInt(userGuess1) > parseInt(randomNumber)){  //  Determine if user's numb
 	var userGuess17 = prompt("Please guess lower number:");
 }else if(parseInt(userGuess2) < parseInt(randomNumber)){  //  
 	var userGuess18 = prompt("Please guess lower number:");
-}else if(parseInt(userGuess1) == parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess1) == parseInt(randomNumber) || parseInt(userGuess2) == parseInt(randomNumber) || parseInt(userGuess3) == parseInt(randomNumber) || parseInt(userGuess4) == parseInt(randomNumber) || parseInt(userGuess5) == parseInt(randomNumber) || parseInt(userGuess6) == ParseInt(randomNumber) || parseInt(userGuess7) == parseInt(randomNumber) || parseInt(userGuess8) == parseInt(randomNumber) || parseInt(userGuess9) == parseInt(randomNumber) || parseInt(userGuess10) == ParseInt(randomNumber) || parseInt(userGuess11) == parseInt(randomNumber) || parseInt(userGuess12) == parseInt(randomNumber) || parseInt(userGuess13) == parseInt(randomNumber) || parseInt(userGuess14) == parseInt(randomNumber) || parseInt(userGuess15) == parseInt(randomNumber) || parseInt(userGuess16) == parseInt(randomNumber) || parseInt(userGuess17) == parseInt(randomNumber) || parseInt(userGuess18) == parseInt(randomNumber)){  //  
 	console.log("You chose wisely!");  //  Print message to console
 	console.log("Your guess: " +userNumber+ "Random number: " +randomNumber+ ".");  //  Print message to console
 }
