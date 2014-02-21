@@ -25,35 +25,35 @@ if(parseInt(userGuess1) > parseInt(randomNumber)){  //  Determine if user's numb
 	var userGuess2 = prompt("Please guess higher number:");
 }else if(parseInt(userGuess2) > parseInt(randomNumber)){  //  
 	var userGuess3 = prompt("Please guess higher number:");
-}else if(parseInt(userGuess2) > parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess3) > parseInt(randomNumber)){  //  
 	var userGuess4 = prompt("Please guess higher number:");
-}else if(parseInt(userGuess2) > parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess4) > parseInt(randomNumber)){  //  
 	var userGuess5 = prompt("Please guess higher number:");
-}else if(parseInt(userGuess2) > parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess5) > parseInt(randomNumber)){  //  
 	var userGuess6 = prompt("Please guess higher number:");
-}else if(parseInt(userGuess2) > parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess6) > parseInt(randomNumber)){  //  
 	var userGuess7 = prompt("Please guess higher number:");
-}else if(parseInt(userGuess2) > parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess7) > parseInt(randomNumber)){  //  
 	var userGuess8 = prompt("Please guess higher number:");
-}else if(parseInt(userGuess2) > parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess8) > parseInt(randomNumber)){  //  
 	var userGuess9 = prompt("Please guess higher number:");
-}else if(parseInt(userGuess2) < parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess9) < parseInt(randomNumber)){  //  
 	var userGuess10 = prompt("Please guess lower number:");
-}else if(parseInt(userGuess2) < parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess10) < parseInt(randomNumber)){  //  
 	var userGuess11 = prompt("Please guess lower number:");	
-}else if(parseInt(userGuess2) < parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess11) < parseInt(randomNumber)){  //  
 	var userGuess12 = prompt("Please guess lower number:");
-}else if(parseInt(userGuess2) < parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess12) < parseInt(randomNumber)){  //  
 	var userGuess13 = prompt("Please guess lower number:");
-}else if(parseInt(userGuess2) < parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess13) < parseInt(randomNumber)){  //  
 	var userGuess14 = prompt("Please guess lower number:");
-}else if(parseInt(userGuess2) < parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess14) < parseInt(randomNumber)){  //  
 	var userGuess15 = prompt("Please guess lower number:");
-}else if(parseInt(userGuess2) < parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess15) < parseInt(randomNumber)){  //  
 	var userGuess16 = prompt("Please guess lower number:");
-}else if(parseInt(userGuess2) < parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess16) < parseInt(randomNumber)){  //  
 	var userGuess17 = prompt("Please guess lower number:");
-}else if(parseInt(userGuess2) < parseInt(randomNumber)){  //  
+}else if(parseInt(userGuess17) < parseInt(randomNumber)){  //  
 	var userGuess18 = prompt("Please guess lower number:");
 }else if(parseInt(userGuess1) == parseInt(randomNumber) || parseInt(userGuess2) == parseInt(randomNumber) || parseInt(userGuess3) == parseInt(randomNumber) || parseInt(userGuess4) == parseInt(randomNumber) || parseInt(userGuess5) == parseInt(randomNumber) || parseInt(userGuess6) == ParseInt(randomNumber) || parseInt(userGuess7) == parseInt(randomNumber) || parseInt(userGuess8) == parseInt(randomNumber) || parseInt(userGuess9) == parseInt(randomNumber) || parseInt(userGuess10) == ParseInt(randomNumber) || parseInt(userGuess11) == parseInt(randomNumber) || parseInt(userGuess12) == parseInt(randomNumber) || parseInt(userGuess13) == parseInt(randomNumber) || parseInt(userGuess14) == parseInt(randomNumber) || parseInt(userGuess15) == parseInt(randomNumber) || parseInt(userGuess16) == parseInt(randomNumber) || parseInt(userGuess17) == parseInt(randomNumber) || parseInt(userGuess18) == parseInt(randomNumber)){  //  
 	console.log("You chose wisely!");  //  Print message to console
