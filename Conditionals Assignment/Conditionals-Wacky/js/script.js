@@ -21,7 +21,7 @@ var userGuess1 = prompt("Please enter your guess:");  //  Prompt user for their 
 if(parseInt(userGuess1) > parseInt(randomNumber) && parseInt(userGuess1) != parseInt(randomNumber)){  //  Determine if user's number is greater than or equal to 5
 	var userGuess2 = prompt("Please guess a lower number:");
 		if(userGuess2 == null){
-			var userGuess2 = prompt("Please guess a lower number:");	
+		var userGuess2 = prompt("Please guess a lower number:");	
 		}
 }else if(parseInt(userGuess2) > parseInt(randomNumber) && parseInt(userGuess2) != parseInt(randomNumber)){  //  
 	var userGuess3 = prompt("Please guess a lower number:");
