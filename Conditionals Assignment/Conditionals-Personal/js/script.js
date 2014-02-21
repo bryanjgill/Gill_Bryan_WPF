@@ -34,15 +34,15 @@ var allBuildFees = parseInt(numberOfClients) * parseInt(avgBuildCost);  //  Calc
 var totalIncome = parseInt(allBuildFees) + parseInt(allHostingAnnual) - parseInt(hostingFee);  //  Calculate total income from site builds and hosting
 
 //  Print all variables to console to verify calculations
-console.log(numberOfClients);
-console.log(avgBuildCost);
-console.log(avgMonthlyHosting);
-console.log(hostingFee);
-console.log(annualSalary);
-console.log(oneHostingAnnual);
-console.log(allHostingAnnual);
-console.log(allBuildFees);
-console.log(totalIncome);
+//  console.log(numberOfClients);
+//  console.log(avgBuildCost);
+//  console.log(avgMonthlyHosting);
+//  console.log(hostingFee);
+//  console.log(annualSalary);
+//  console.log(oneHostingAnnual);
+//  console.log(allHostingAnnual);
+//  console.log(allBuildFees);
+//  console.log(totalIncome);
 
 //  Determine if use can quit their day job
 if(parseInt(totalIncome) >= parseInt(annualSalary)){  //  Determine if the total income from web clients exceeds current salary
